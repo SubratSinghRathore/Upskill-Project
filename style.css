@@ -24,6 +24,10 @@
     }
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 .menu{
     display: none;
     padding: 30px;
@@ -68,10 +72,6 @@ ul li a:hover{
     background-color: rgb(0, 146, 97);
 }
 
-.info{
-    width: 100vw;
-}
-
 .card-head{
     font-size: 35px;
     font-weight: bolder;
@@ -84,13 +84,13 @@ ul li a:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
+    gap: 35px;
     flex-wrap: wrap;
 }
 
 .card{
     border: 2px solid gray;
-    max-width: 200px;
+    max-width: 240px;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px 1px;
@@ -99,9 +99,13 @@ ul li a:hover{
 
 .card-img{
     border: 2px solid gray;
-    box-shadow: 3px 3px 10px 1px;
-    /* margin: auto; */
     border-radius: 10px;
+    transition: 1000ms;
+}
+
+.card-img:hover{
+    box-shadow: 3px 3px 10px 1px;
+
 }
 
 .card-title{
@@ -111,9 +115,87 @@ ul li a:hover{
 }
 
 .card-btn{
-    border: 2pz solid rgb(87, 231, 87);
+    border: 2px solid rgb(87, 231, 87);
     background-color: rgb(159, 251, 159);
     color: black;
     border-radius: 30px;
     padding: 4px 8px;
+    transition: 600ms;
+}
+
+.card-btn:hover{
+    padding: 4px 14px;
+}
+
+.connect-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.connect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    transition: 0.4s;
+    width: 40%;
+}
+
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+input {
+    border-radius: 5px;
+    width: 60%;
+    color: gray;
+    border: 2px solid rgb(87, 231, 87);
+}
+
+textarea {
+    border-radius: 5px;
+    width: 60%;
+    min-height: 170px;
+    color: gray;
+    border: 2px solid rgb(87, 231, 87);
+}
+
+
+.connect_btn {
+    width: 100px;
+    padding: 4px 15px;
+    font-weight: 600;
+    background-color: rgb(156, 255, 204);
+    color: rgb(0, 189, 0);
+    margin: 5px 5px;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid rgb(87, 231, 87);
+}
+
+.connect_btn:hover{
+    width: 107px;
+    transition: 0.2s;
+    color: #000000;
+    background-color: #0c9200;
+}
+
+.footer{
+    width: 100vw;
+    margin: auto;
+}
+
+.copyright{
+    margin: auto;
+    width: 50vw;
+    text-align: center;
 }
