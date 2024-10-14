@@ -12,6 +12,13 @@
     .links{
         display: none;
     }
+    .connect-sec{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -21,6 +28,21 @@
 
     .logo-img{
         width: 80px;
+    }
+    .map{
+        max-height: 250px;
+        max-width: 250px;
+    }
+    .card{
+        max-width: 140px !important;
+        height: 250px !important;
+    }
+    .card-img{
+        height: 100px;
+        width: 100px;
+    }
+    .card-title{
+        font-size: 14px;
     }
 }
 
