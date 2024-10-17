@@ -86,6 +86,6 @@ We’ve had the privilege to work with a diverse range of clients from startups 
 Have a project in mind? Reach out to us and let’s discuss how TheBrim can bring value to your business.
 
 📧 **Email**: contact@thebrim.com  
-🌐 **Website**: (https://upskill-project.rho.vercel.app)
+🌐 **Website**: [(https://upskill-project.rho.vercel.app)](https://upskill-project-rho.vercel.app/)
 
 © 2024 TheBrim. All rights reserved.
