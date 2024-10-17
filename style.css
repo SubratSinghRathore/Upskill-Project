@@ -44,6 +44,13 @@
     .card-title{
         font-size: 14px;
     }
+    ul li{
+        font-size: 12px !important;
+        padding: 0px !important;
+    }
+    .heading-alt{
+        font-size: 14px !important;
+    }
 }
 
 ::-webkit-scrollbar{
@@ -220,4 +227,16 @@ textarea {
     margin: auto;
     width: 50vw;
     text-align: center;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.heading-alt{
+    font-size: 24px;
+    text-align: start;
+    padding: 20px;
 }
