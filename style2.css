@@ -1,0 +1,30 @@
+.info{
+    position: relative;
+}
+
+.info_head{
+    padding: 25px;
+    position: absolute;
+    top: 55%;
+    background-color: rgba(240, 248, 255, 0.403);
+    height: 40%;
+    width: 97vw;
+}
+
+.header{
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    background-color: beige;
+}
+
+.features{
+    padding: 10px;
+
+}
+
+.fearures_heading{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
