@@ -4,15 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Brim</title>
+    <title>PrashantShares</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
+
+    <div class="error">
+        <h1 class="err_msg" id="err_msg">Oops, Please Switch to Desktop Mode</h1>
+    </div>
+
     <header class="header">
         <nav class="nav">
             <div>
-                <img class="logo-img" width="100px" src="https://thebrim.co.in/public/temp/14/1725271994.jpg" alt="">
+                <img class="logo-img" width="100px" src="./assets/logo.jpeg" style="border-radius: 50px;">
             </div>
             <div class="menu">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25" color="#000000"
@@ -38,134 +44,126 @@
         </nav>
     </header>
     <section class="info">
-        <img width="100%" src="https://www.sigmasoftwares.org/images/prr.png" alt="">
-        <div class="flex-c pad">
-            <h1 class="pad" style="text-align: center;">SigmaIT Software Designers Products in Lucknow</h3>
-                <div class="info-para pad" style="text-align: center;">
-                    SigmaIT Software Designers is one of the best software development company in lucknow, we provide
-                    360 degree software solutions in lucknow or india. SigmaIT Software Designers announced our , india
-                    because we are dedicated to give you top class software service in lucknow, india. SigmaIT Software
-                    Designers Is An ISO 9001:2015 Certified Software Development Company In Lucknow That Works In A
-                    Flexible Environment For Best Software Development Service In Lucknow Process, Adjusting As Per Our
-                    Customer's Requirements. Quality Work Is A Prerequisite For Every Task We Undertake At Sigma
-                    Software As We Consider That "Every Day Counts". And Why Not; We Know That Good Jobs Always Bring
-                    New Clients.
+        <div class="scroll_div">
+            <img id="img1" src="./assets/scroll1.jpg" alt="Image 1">
+            <img id="img2" src="./assets/scroll2.jpg" alt="Image 2">
+            <img id="img3" src="./assets/scroll3.jpg" alt="Image 3">
+            <img id="img4" src="./assets/scroll4.jpg" alt="Image 4">
+            <img id="img5" src="./assets/scroll5.jpg" alt="Image 5">
+        </div>
+
+        <div class="info_head">
+            <h1 style="color: #fbbd00; font-weight: 800; font-size: 75px;">Mr. Prashant Mishra</h3>
+                <div class="sub_headig" style="font-size: 40px; color: #000000; font-weight: 600;">
+                    The Founder of
+                    <span style="color: #078a00db; font-weight: 800; font-size: 35px;">The Brim</span>
+                    Iniciated By
+                    <span style="color: #078a00db; font-weight: 800; font-size: 35px;">INDRA</span>
+                </div>
+                <div style="font-size: 20px; color: #000000; padding-top: 10px;">
+                    Prashant M is committed to powering extraordinary growth and helping you lead a more purposeful,
+                    passionate and fulfilling life
                 </div>
         </div>
     </section>
-    <hr style="color: gray; height: 2px; background-color: gray;">
+    <!-- <hr style="color: gray; height: 2px; background-color: gray;"> -->
     <section class="cards-main">
+
         <div class="card-head">
-            Software Products of SigmaIT Software Designers In Lucknow
+            Who I Am
         </div>
         <div class="cards">
-            <div class="card flex-c">
-                <img class="card-img" width="200px" height="200px"
-                    src="https://www.sigmasoftwares.org/images/real-estate-software.jpg" alt="">
-                <div class="card-title">
-                    Real estate software is the perfect saviour, as it helps to spruce up efficiencies in your business.
+            <div class="card flex-c" id="card1">
+                <di class="img">
+                    <img class="card_img" width="100%" src="./assets/C&E.jpg" alt="">
+                </di>
+                
+                <div class="card_hover" id="card_hover1">
+                    <div class="card-title">
+                        Counseling and Empowerment
+                    </div>
+                    <div class="card-content" id="card-content1">
+                        Prashant’s role as a counselor is marked by his ability to connect with people on a profound level.
+                        He offers guidance to those seeking clarity and direction in their personal and professional lives.
+                    </div>
                 </div>
-                <button type="button" class="card-btn">
-                    Read More
-                </button>
+                
             </div>
-            <div class="card flex-c">
-                <img class="card-img" width="200px" height="200px"
-                    src="https://www.sigmasoftwares.org/images/Restaurant-Bbq-mobile.png" alt="">
-                <div class="card-title">
-                    Our restaurant management system helps restaurant managers and owners run a restaurant end to end.
+            <div class="card flex-c" id="card2">
+                <di class="img">
+                    <img class="card_img" width="100%" src="./assets/B&I.jpg" alt="">
+                </di>
+                
+                <div class="card_hover" id="card_hover2">
+                    <div class="card-title">
+                        Blogging and Digital Influence
+                    </div>
+                    <div class="card-content" id="card-content2">
+                        Prashant shares his expertise and experiences with a global audience. His blog serves as a platform for thought-provoking discussions, offering readers valuable perspectives on various topics.
+                    </div>
                 </div>
-                <button type="button" class="card-btn">
-                    Read More
-                </button>
+                
             </div>
-            <div class="card flex-c">
-                <img class="card-img" width="200px" height="200px"
-                    src="https://www.sigmasoftwares.org/img/college-management-software.png" alt="">
-                <div class="card-title">
-                    College Management System(CMS)-by SIGMAIT Is best College ERP software solution in Industry.
+            <div class="card flex-c" id="card3">
+                <di class="img">
+                    <img class="card_img" width="100%" src="./assets/startup.jpg" alt="">
+                </di>
+                
+                <div class="card_hover" id="card_hover3">
+                    <div class="card-title">
+                        Empowering Organizations
+                    </div>
+                    <div class="card-content" id="card-content">
+                        Prashant’s commitment to empowering organizations is evident in his work with businesses and startups. He provides strategic guidance and support, helping companies navigate challenges and achieve sustainable growth.
+                    </div>
                 </div>
-                <button type="button" class="card-btn">
-                    Read More
-                </button>
+                
             </div>
-            <div class="card flex-c">
-                <img class="card-img" width="200px" height="200px"
-                    src="https://www.sigmasoftwares.org/images/Restaurant-Bbq-mobile.png" alt="">
-                <div class="card-title">
-                    Sigma Software Provide you Adaptive IT specialized ERP solution for Educational Institutions .
+            <div class="card flex-c" id="card4">
+                <di class="img">
+                    <img class="card_img" width="100%" src="./assets/startup.jpg" alt="">
+                </di>
+                
+                <div class="card_hover" id="card_hover4">
+                    <div class="card-title">
+                        Empowering Organizations 
+                    </div>
+                    <div class="card-content" id="card-conten4">
+                        Creating economic opportunities through microfinance, skill development, and entrepreneurship programs. We empower individuals to become self-reliant and financially stable, fostering economic growth within the community.
+                    </div>
                 </div>
-                <button type="button" class="card-btn">
-                    Read More
-                </button>
+                
             </div>
-            <div class="card flex-c">
-                <img class="card-img" width="200px" height="200px"
-                    src="https://www.sigmasoftwares.org/images/accounting-software.jpg" alt="">
-                <div class="card-title">
-                    We provide best Accounting Billing Management Software in Lucknow is a comprehensive system. </div>
-                <button type="button" class="card-btn">
-                    Read More
-                </button>
-            </div>
-            <div class="card flex-c">
-                <img class="card-img" width="200px" height="200px"
-                    src="https://www.sigmasoftwares.org/img/edited-school-management.jpg" alt="">
-                <div class="card-title">
-                    Sigma Software Provide CRM is commonly used to manage a business-customer relationship. </div>
-                <button type="button" class="card-btn">
-                    Read More
-                </button>
-            </div>
-            <div class="card flex-c">
-                <img class="card-img" width="200px" height="200px" src="https://www.sigmasoftwares.org/img/fdff.png"
-                    alt="">
-                <div class="card-title">
-                    Top Digital Library Management Software in India </div>
-                <button type="button" class="card-btn">
-                    Read More
-                </button>
-            </div>
-            <div class="card flex-c">
-                <img class="card-img" width="200px" height="200px" src="https://www.sigmasoftwares.org/img/ddr.png"
-                    alt="">
-                <div class="card-title">
-                    Top Hospital Management Software in India </div>
-                <button type="button" class="card-btn">
-                    Read More
-                </button>
-            </div>
-            <div class="card flex-c">
-                <img class="card-img" width="200px" height="200px"
-                    src="https://www.sigmasoftwares.org/images/Hotel-Management-Software.jpg" alt="">
-                <div class="card-title">
-                    We provide Simplify operations, maximize revenue & do more with hotel management system. </div>
-                <button type="button" class="card-btn">
-                    Read More
-                </button>
-            </div>
-            <div class="card flex-c">
-                <img class="card-img" width="200px" height="200px"
-                    src="https://www.sigmasoftwares.org/img/microfinance-software.png" alt="">
-                <div class="card-title">
-                    Our MFIs is to become efficient financial institutions that offer a broad range of adequate products
+            <div class="card flex-c" id="card5">
+                <di class="img">
+                    <img class="card_img" width="100%" src="./assets/events.jpg" alt="">
+                </di>
+                
+                <div class="card_hover" id="card_hover5">
+                    <div class="card-title">
+                        Events, Talk Shows, and Voice
+                    </div>
+                    <div class="card-content" id="card-conten5">
+                        Prashant is also a seasoned speaker and voice artist, bringing his dynamic presence to events and talk shows. His ability to engage audiences and deliver impactful messages has made him a sought-after speaker in various forums.
+                    </div>
                 </div>
-                <button type="button" class="card-btn">
-                    Read More
-                </button>
+                
             </div>
-            <div class="card flex-c">
-                <img class="card-img" width="200px" height="200px" src="https://www.sigmasoftwares.org/images/NIDHI.jpg"
-                    alt="">
-                <div class="card-title">
-                    We have developed Nidhi Software with continuous research in Nidhi or Mutual Benefit Fund with
-                    guidance. </div>
-                <button type="button" class="card-btn">
-                    Read More
-                </button>
+            <div class="card flex-c" id="card6">
+                <di class="img">
+                    <img class="card_img" width="100%" src="./assets/E&E.jpg" alt="">
+                </di>
+                
+                <div class="card_hover" id="card_hover6">
+                    <div class="card-title">
+                        Economic Empowerment
+                    </div>
+                    <div class="card-content" id="card-conten6">
+                        Creating economic opportunities through microfinance, skill development, and entrepreneurship programs. We empower individuals to become self-reliant and financially stable, fostering economic growth within the community.
+                    </div>
+                </div>
+                
             </div>
-
-        </div>
     </section>
     <hr style="color: gray; height: 2px; background-color: gray;">
     <section class="connect-sec">
@@ -201,86 +199,86 @@
     </section>
     <hr style="color: gray; height: 2px; background-color: gray;">
     <section class="otherlinks">
-        <footer class="footer-links">
-            <div class="container footer">
+        <footer class="footer">
+            <div class="container">
                 <div class="row">
-                    <div class="list-1">
-
-                        <h5 class="heading-alt">Our Services</h5>
-
-                        <ul class="footer-1">
-                            <li><a href="">Software Development</a></li>
-                            <li><a href="">Android App Development</a></li>
-                            <li><a href="">Website Designing</a></li>
-                            <li><a href="">Digital Marketing</a></li>
-                            <li><a href="">Web Application Development</a></li>
-                            <li><a href="">Application Maintenance</a></li>
-                            <li><a href="">E-Commerce Solution </a></li>
-                            <li><a href="">Software Testing </a></li>
-                            <li><a href="">Web Hosting </a></li>
-                            <li><a href="">Website Redesigning </a></li>
-                            <li><a href="">Search Engine Optimization</a></li>
-                            <li><a href="">Best Software Company in Lucknow </a></li>
-                            <li><a href="">IT Company in Lucknow</a></li>
-                        </ul>
-
-
-                    </div>
-
-                    <div class="list-2">
-
-
-                        <h5 class="heading-alt">Our Products</h5>
-
-                        <ul class="footer-2">
-
-                            <li><a href="">Accounting &amp; Billing Software</a></li>
-
-                            <li><a href="">Hospital Management Software</a></li>
-                            <li><a href="">Nidhi Cooperative Software</a></li>
-                            <li><a href="">Microfinance Software</a></li>
-                            <li><a href="">Library Management System</a></li>
-                            <li><a href="">Payroll Management System</a></li>
-                            <li><a href="">Restaurant Software</a></li>
-                            <li><a href="">Petrol Pump Software</a></li>
-                            <li><a href="">Real EstateSoftware</a></li>
-                            <li><a href="">News Portals Software</a></li>
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">affiliate program</a></li>
                         </ul>
                     </div>
-
-                    <div class="list-3">
-                        <br />
-                        <h5 class="heading-alt">Resources</h5>
-
-                        <ul class="footer-3">
-                            <li><a href="">Blogs </a></li>
-                            <li><a href="">Request Demo </a></li>
-                            <li><a href="">Contact US </a></li>
-                            <li><a href="">Offers & Discounts</a></li>
-                            <li><a href="">Sitemap </a></li>
-                            <li><a href="">Our Work </a></li>
-                            <li><a href="">Support </a></li>
-                            <li><a href="">Careers</a></li>
-                            <li><a href="">Payment</a></li>
-                            <li><a href="">Shipping/Membership Policy</a></li>
-                            <li><a href="">Privacy Policy </a></li>
-                            <li><a href="">Cancellation Policy </a></li>
-                            <li><a href="">Return Policy </a></li>
-                            <li><a href="">Refund Policy </a></li>
-                            <li><a href="">Terms & Condition </a></li>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">get in touch</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Career</a></li>
                         </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40"
+                                    height="40" color="#acacac" fill="none">
+                                    <path
+                                        d="M7 17L11.1935 12.8065M17 7L12.8065 11.1935M12.8065 11.1935L9.77778 7H7L11.1935 12.8065M12.8065 11.1935L17 17H14.2222L11.1935 12.8065"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z"
+                                        stroke="currentColor" stroke-width="1.5" />
+                                </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40"
+                                    height="40" color="#acacac" fill="none">
+                                    <path
+                                        d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                                    <path
+                                        d="M16.5 12C16.5 14.4853 14.4853 16.5 12 16.5C9.51472 16.5 7.5 14.4853 7.5 12C7.5 9.51472 9.51472 7.5 12 7.5C14.4853 7.5 16.5 9.51472 16.5 12Z"
+                                        stroke="currentColor" stroke-width="1.5" />
+                                    <path d="M17.5078 6.5L17.4988 6.5" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40"
+                                    height="40" color="#acacac" fill="none">
+                                    <path d="M7 10V17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M11 13V17M11 13C11 11.3431 12.3431 10 14 10C15.6569 10 17 11.3431 17 13V17M11 13V10"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M7.00801 7L6.99902 7" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                    <path
+                                        d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                                </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40"
+                                    height="40" color="#acacac" fill="none">
+                                    <path
+                                        d="M2.5 12C2.5 7.52166 2.5 5.28249 3.89124 3.89124C5.28249 2.5 7.52166 2.5 12 2.5C16.4783 2.5 18.7175 2.5 20.1088 3.89124C21.5 5.28249 21.5 7.52166 21.5 12C21.5 16.4783 21.5 18.7175 20.1088 20.1088C18.7175 21.5 16.4783 21.5 12 21.5C7.52166 21.5 5.28249 21.5 3.89124 20.1088C2.5 18.7175 2.5 16.4783 2.5 12Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                                    <path
+                                        d="M16.9265 8.02637H13.9816C12.9378 8.02637 12.0894 8.86847 12.0817 9.91229L11.9964 21.4268M10.082 14.0017H14.8847"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg></a>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="copyright" style="color: white;">
+                &copy; Copyright 2024 | Developed by Subrat Singh | All right reserved.
+            </div>
         </footer>
     </section>
-    <hr style="color: gray; height: 2px; background-color: gray;">
-    <footer class="footer">
-        <div class="copyright">
-            &copy; Copyright 2024 | Developed by Subrat Singh | All right reserved.
-        </div>
-    </footer>
 
+    <script src="app.js"></script>
 </body>
 
 </html>
