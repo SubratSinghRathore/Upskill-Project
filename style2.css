@@ -1,8 +1,69 @@
-.info{
+@media screen and (max-width: 875px) {
+    .sub_heading {
+        font-size: 20px !important;
+        font-weight: 600 !important;
+    }
+
+    .info_head h1 {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .info_head {
+        top: 35% !important;
+        height: 52% !important;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .sub_heading {
+        font-size: 15px !important;
+        font-weight: 600 !important;
+    }
+
+    .info_head {
+        top: 35% !important;
+        height: 52% !important;
+    }
+
+    .info_head_para {
+        font-size: 15px !important;
+        color: #000000 !important;
+        padding-top: 10px !important;
+    }
+
+    .sub_heading_span{
+        font-size: 17px !important; 
+    }
+
+    .contact-box{
+        width: 277px !important;
+    }
+}
+
+.onClickDropdown{
+    top: 92px !important;
+}
+
+.links_on_click{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: -300px;
+    z-index: 1;
+    background-color: beige;
+    width: 100vw;
+    transition: 0.5s;
+}
+
+.info {
     position: relative;
 }
 
-.info_head{
+.info_head {
     padding: 25px;
     position: absolute;
     top: 55%;
@@ -11,22 +72,46 @@
     width: 97vw;
 }
 
-.header{
+.info_head_para {
+    font-size: 20px;
+    color: #000000;
+    padding-top: 10px;
+}
+
+.info_head h1 {
+    color: #fbbd00;
+    font-weight: 800;
+    font-size: 75px;
+}
+
+.sub_heading {
+    font-size: 40px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.sub_heading_span {
+    color: #078a00db;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.header {
     position: sticky;
     z-index: 1;
     top: 0px;
     background-color: beige;
 }
 
-.features{
+.features {
     padding: 10px;
 
 }
 
-.fearures_heading{
+.fearures_heading {
     font-size: 20px;
     font-weight: 600;
-    
+
 }
 
 .footer {
@@ -79,11 +164,11 @@
     padding-left: 8px;
 }
 
-.social-links a svg{
+.social-links a svg {
     transition: 0.5s;
 }
 
-.social-links a svg:hover{
+.social-links a svg:hover {
     transform: translateY(-10px);
 }
 

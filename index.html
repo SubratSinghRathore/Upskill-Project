@@ -11,16 +11,25 @@
 
 <body>
 
-    <div class="error">
+    <!-- <div class="error">
         <h1 class="err_msg" id="err_msg">Oops, Please Switch to Desktop Mode</h1>
+    </div> -->
+    <div class="links_on_click" id="links_on_click">
+        <ul class="link_on_click" id="link_on_click">
+            <li><a href="">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="">Contact us</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Career</a></li>
+        </ul>
     </div>
-
     <header class="header">
         <nav class="nav">
             <div>
-                <img class="logo-img" width="100px" src="./assets/logo.jpeg" style="border-radius: 50px;">
+                <img class="logo-img" width="80px" src="./assets/logo.jpg">
             </div>
-            <div class="menu">
+            <div class="menu" id="menu">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25" color="#000000"
                     fill="none">
                     <path d="M4 5L20 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
@@ -34,7 +43,7 @@
             <div class="links">
                 <ul class="nav">
                     <li><a href="">Home</a></li>|
-                    <li><a href="">About</a></li>|
+                    <li><a href="./about.html">About</a></li>|
                     <li><a href="">Contact us</a></li>|
                     <li><a href="">Services</a></li>|
                     <li><a href="">Products</a></li>|
@@ -42,6 +51,7 @@
                 </ul>
             </div>
         </nav>
+        <hr style="color: gray; height: 2px; background-color: gray;">
     </header>
     <section class="info">
         <div class="scroll_div">
@@ -53,20 +63,20 @@
         </div>
 
         <div class="info_head">
-            <h1 style="color: #fbbd00; font-weight: 800; font-size: 75px;">Mr. Prashant Mishra</h3>
-                <div class="sub_headig" style="font-size: 40px; color: #000000; font-weight: 600;">
+            <h1>Mr. Prashant Mishra</h3>
+                <div class="sub_heading">
                     The Founder of
-                    <span style="color: #078a00db; font-weight: 800; font-size: 35px;">The Brim</span>
-                    Iniciated By
-                    <span style="color: #078a00db; font-weight: 800; font-size: 35px;">INDRA</span>
+                    <span class="sub_heading_span">The Brim</span>
+                    initiated By
+                    <a style="text-decoration: underline green;" href="https://ziyanex.com/indra/"><span class="sub_heading_span">INDRA</span></a>
                 </div>
-                <div style="font-size: 20px; color: #000000; padding-top: 10px;">
+                <div class="info_head_para">
                     Prashant M is committed to powering extraordinary growth and helping you lead a more purposeful,
                     passionate and fulfilling life
                 </div>
         </div>
     </section>
-    <!-- <hr style="color: gray; height: 2px; background-color: gray;"> -->
+    <hr style="color: gray; height: 2px; background-color: gray;">
     <section class="cards-main">
 
         <div class="card-head">
@@ -171,31 +181,32 @@
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3574.7841444835994!2d80.43361477525201!3d26.365842776977367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c42168d83c455%3A0x464480de38dc4686!2sAllenhouse%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1728937249818!5m2!1sen!2sin"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div class="connect" id="contact">
-            <div class="connect_me green_bold">
-                --Connect With Me--
-            </div>
 
-            <form method="post" class="form">
-
-                <input type="hidden" name="access_key" value="66ad950c-4e6c-49af-bcad-77915c9e4d46">
-
-                <input class="name_input contact_input margin" name="name" type="text" placeholder="Fill Your Name"
-                    required>
-
-
-                <input class="email_input contact_input margin" name="email" type="email" placeholder="Fill Your Email"
-                    required>
-
-
-                <textarea class="textarea_input" name="Message" id="" placeholder="Type Your Message"
-                    required></textarea>
-
-                <div>
-                    <button class="connect_btn" type="submit">send</button>
-                </div>
-
-            </form>
+            <div class="contact-box body">
+                <h2>Connect</h2>
+          
+                <form action="https://api.web3forms.com/submit" method="POST">
+          
+          
+                  <input type="hidden" name="access_key" value="07d4b96a-457d-4851-9772-354512e89336" />
+                  <div class="input-box">
+                    <input type="text" name="name" required placeholder=" " />
+                    <label>Name</label>
+                  </div>
+          
+                  <div class="input-box">
+                    <input type="email" name="email" required placeholder=" " />
+                    <label>Email</label>
+                  </div>
+          
+                  <div class="input-box">
+                    <textarea name="message" required placeholder=" "></textarea>
+                    <label>Message</label>
+                  </div>
+          
+                  <input type="submit" value="Send" />
+                </form>
+              </div>
     </section>
     <hr style="color: gray; height: 2px; background-color: gray;">
     <section class="otherlinks">
@@ -205,7 +216,7 @@
                     <div class="footer-col">
                         <h4>company</h4>
                         <ul>
-                            <li><a href="#">about us</a></li>
+                            <li><a href="./about.html">about us</a></li>
                             <li><a href="#">our services</a></li>
                             <li><a href="#">privacy policy</a></li>
                             <li><a href="#">affiliate program</a></li>

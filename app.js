@@ -50,3 +50,9 @@ document.getElementById("card6").addEventListener("mouseenter", () => {
 document.getElementById("card6").addEventListener("mouseleave", () => {
     document.getElementById("card_hover6").style.top="75%";
 })
+
+
+document.getElementById("menu").addEventListener("click", () => {
+    const linksOnClick = document.getElementById("links_on_click");
+    linksOnClick.classList.toggle("onClickDropdown");
+});
