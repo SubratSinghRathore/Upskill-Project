@@ -54,13 +54,14 @@
     position: fixed;
     top: -300px;
     z-index: 1;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
     width: 100vw;
     transition: 0.5s;
 }
 
 .info {
     position: relative;
+    height: 85vh;
 }
 
 .info_head {
@@ -81,26 +82,26 @@
 .info_head h1 {
     color: #fbbd00;
     font-weight: 800;
-    font-size: 75px;
+    font-size: 23px;
 }
 
 .sub_heading {
-    font-size: 40px;
+    font-size: 20px;
     color: #000000;
     font-weight: 600;
 }
 
 .sub_heading_span {
-    color: #078a00db;
-    font-weight: 800;
-    font-size: 30px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 25px;
 }
 
 .header {
     position: sticky;
     z-index: 1;
     top: 0px;
-    background-color: beige;
+    background-color: rgb(255, 255, 255);
 }
 
 .features {

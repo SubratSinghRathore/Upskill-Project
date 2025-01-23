@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: beige;
+  background-color: rgb(255, 255, 255);
 }
 
 /* @media screen and (max-width: 900px) {
@@ -47,10 +47,6 @@ body {
 
 
 @media screen and (max-width: 768px) {
-
-  .logo-img {
-    width: 80px;
-  }
 
   .map {
     max-height: 250px;
@@ -110,13 +106,13 @@ body {
 
 ul li {
   list-style-type: none;
-  font-size: 30px;
+  font-size: 20px;
   padding: 10px;
 }
 
 ul li a {
   text-decoration: none;
-  color: #009261;
+  color: #000000;
   transition: 800ms;
   padding: 10px;
   border-radius: 5px;
