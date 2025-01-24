@@ -4,6 +4,6 @@ const appsdeveloped = document.querySelector(".apps-developed");
 
 setTimeout(() => {
   websitesDesigned.innerHTML = "255";
-  appsdeveloped.innerHTML = "16";
+  appsdeveloped.innerHTML = "96";
 }, 400);
 

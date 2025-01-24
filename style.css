@@ -123,12 +123,19 @@ ul li a:hover {
   background-color: rgb(0, 146, 97);
 }
 
-.card-head {
+.card-head a {
   font-size: 50px;
   font-weight: 800;
   text-align: center;
   padding: 20px;
   color: #fbbd00;
+  margin: auto;
+  display: block;
+  width: fit-content;
+}
+
+.card-head {
+  margin: auto;
 }
 
 .img {
@@ -164,9 +171,9 @@ ul li a:hover {
 
 .card-title {
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bolder;
-  padding: 10px;
+  padding: 15px;
   color: #fbbd00;
 }
 
